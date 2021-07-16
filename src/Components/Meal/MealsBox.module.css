@@ -1,0 +1,59 @@
+.mealsBox{
+    color: black;
+   border-bottom:1px solid grey ;
+   padding: 5px;
+   display:flex;
+   width:100%;
+
+   align-items: center;
+   justify-content: space-between;
+   line-height: 2;
+}
+.foodItems
+{
+    width: 80%;
+}
+.price{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(202, 133, 5);
+}
+.add-cart{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+.add-cart button{
+
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 5px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(155, 2, 10);
+    border:none;
+    
+}
+.add-cart input{
+    width: 35px;
+    border: 1px solid grey;
+    outline:none;
+    text-align: center;
+    border-radius: 2px;
+    padding: 2px;
+
+}
+.add-cart span{
+    color:black;
+    font-weight: bold;
+}
+.add-cart input:active,
+.add-cart input:focus{
+    border: 1px solid grey;
+    outline:none;
+  
+
+}
